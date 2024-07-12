@@ -4,7 +4,7 @@ permalink: /cv/
 title: cv
 nav: true
 nav_order: 3
-cv_pdf: thientrang_cv.pdf
+cv_pdf: thientrangngv_cv.pdf
 description: 
 toc:
   sidebar: left
