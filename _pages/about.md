@@ -2,24 +2,22 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: Hello!
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: thientrangngv.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>555 your office number</p>
     <p>123 your address street</p>
     <p>Your City, State 12345</p>
 
-news: true # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
+news: false # includes a list of news items
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am Trang (Vu Thien) Nguyen, a research resident at [VinAI Research](https://www.vinai.io/vinai-ai-residency/), where I am privileged to be advised by Professor [Nhat Ho](https://nhatptnk8912.github.io/). I graduated in 2023 with a major in Data Science and AI from [Hanoi University of Science and Technology](https://hust.edu.vn/). During my time there, I was a research student at the [Data Science Laboratory](http://ds.soict.hust.edu.vn/), under the guidance of [Dr. Linh Ngo](https://users.soict.hust.edu.vn/linhnv/).
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+My research interests focus on AI security, safety, and efficiency. I have investigated the vulnerabilities of deep learning models (including backdoor attacks), the application of optimal transport (specifically the sliced Wasserstein distance), and scalable and efficient AI strategies such as the mixture of experts, continual learning, and model fusion.
