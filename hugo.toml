@@ -20,3 +20,4 @@ theme = "barks"
 [params]
   author = "Thien Trang Nguyen Vu"
   description = "Ph.D. student in Computer Science"
+  custom_css = ["css/custom.css"]
