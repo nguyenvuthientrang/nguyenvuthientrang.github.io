@@ -2,20 +2,26 @@ body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
     color: #333;
+    margin: 0;
+    padding: 0;
 }
-  
+
 .container {
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
 }
 
-h1 {
+header {
     text-align: center;
+    margin-bottom: 40px;
+}
+
+h1 {
+    margin-bottom: 10px;
 }
 
 nav {
-    text-align: center;
     margin-bottom: 20px;
 }
 
@@ -28,6 +34,7 @@ nav a {
 .content {
     display: flex;
     justify-content: space-between;
+    align-items: flex-start;
 }
 
 .text {
@@ -36,16 +43,12 @@ nav a {
 }
 
 .image img {
-    max-width: 300px;
+    max-width: 200px;
     border-radius: 5px;
 }
 
 footer {
-    margin-top: 20px;
+    margin-top: 40px;
     text-align: center;
     font-size: 0.9em;
-}
-
-.social-icons {
-    margin-bottom: 10px;
 }

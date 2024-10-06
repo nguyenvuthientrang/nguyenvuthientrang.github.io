@@ -1,27 +1,10 @@
 {{ define "main" }}
-<div class="container">
-  <h1>{{ .Site.Title }}</h1>
-  
-  <nav>
-    {{ range .Site.Menus.main }}
-      <a href="{{ .URL }}">{{ .Name }}</a>
-    {{ end }}
-  </nav>
-
-  <div class="content">
+<div class="content">
     <div class="text">
-      {{ .Content }}
+        {{ .Content }}
     </div>
     <div class="image">
-      <img src="/images/profile.jpg" alt="Carl Barks">
+        <img src="{{ "images/profile.jpg" | relURL }}" alt="{{ .Site.Params.author }}">
     </div>
-  </div>
-
-  <footer>
-    <div class="social-icons">
-      <!-- Add your social media icons here -->
-    </div>
-    <p>© {{ now.Format "2006" }} by {{ .Site.Params.author }}. <a href="/privacy-policy/">Privacy policy</a>.</p>
-  </footer>
 </div>
 {{ end }}
