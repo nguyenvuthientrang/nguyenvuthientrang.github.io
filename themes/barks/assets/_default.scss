@@ -12,10 +12,11 @@
 }
 
 body {
-    background-color: $background-color;
-	font-family: $body-font, sans-serif;
-	font-size: 20px;
-	line-height: 160%;
+    background-color: transparent;
+    background-image: url('https://media.tenor.com/2aR104Kcck4AAAAM/sparkle-wallpaper.gif');
+    font-family: $body-font, sans-serif;
+    font-size: 20px;
+    line-height: 160%;
     font-display: swap;
 }
 
