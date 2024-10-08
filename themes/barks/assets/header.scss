@@ -1,9 +1,24 @@
 
 header {
 	text-align: center;
-	position: static;
+	position: relative;
 	margin-top: 60px;
     line-height: 1.1;
+    display: flex; /* Enable flexbox */
+    flex-direction: column; /* Stack children vertically */
+    justify-content: center;
+    align-items: center;
+    height: auto;
+}
+
+header .toggle-wrapper {
+    width: 100%;
+    height: 50%;
+    pointer-events: none; /* Prevent the wrapper from interfering with clicks */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 12px;
 }
 
 header .title {

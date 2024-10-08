@@ -19,6 +19,29 @@ body {
     font-display: swap;
 }
 
+body.dark-theme {
+    background-color: $dark-background-color;
+    color: $dark-text-color;
+    font-family: $body-font, sans-serif;
+    font-size: 20px;
+	line-height: 160%;
+    font-display: swap;
+}
+
+body.dark-theme main,
+body.dark-theme a,
+body.dark-theme nav,
+body.dark-theme .title {
+    color: $dark-text-color;
+}
+
+body.dark-theme footer,
+body.dark-theme footer ul li a i,
+body.dark-theme footer a {
+    color: $dark-text-color;
+}
+
+
 .outer {
     display: table;
     position: absolute;
