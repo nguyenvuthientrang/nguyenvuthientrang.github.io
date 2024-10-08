@@ -45,7 +45,7 @@ theme = 'barks'
         show_footer = true
 
     [params.colors]
-        theme_color = "#333333"
-        background_color = "#ffdddd"
-        text_color = "#333333"
+        theme_color = "#ffdddd"
+        background_color = "#000000"
+        text_color = "#ffdddd"
         link_color = "#60c17d"
