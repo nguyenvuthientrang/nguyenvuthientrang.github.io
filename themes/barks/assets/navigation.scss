@@ -65,3 +65,7 @@ nav li + li:before {
     }
     
 }
+
+nav .active a::after {
+    width: 100%; /* Keep the underline fully visible */
+}
