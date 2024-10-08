@@ -1,7 +1,7 @@
 ---
 title: "Home"
 layout: landing_page
-image: "/images/profile.jpg"
+image: "/images/Photo_pink.jpg"
 ---
 
 Hi, I'm Thiên Trang! 👋 You can call me Cheryl! 🍒
