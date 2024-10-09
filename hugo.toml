@@ -1,6 +1,6 @@
 baseURL = 'https://example.org/'
 languageCode = 'en-us'
-title = '(Thien) Trang Nguyen (Vu)'
+title = 'Thien-Trang Nguyen-Vu'
 theme = 'barks'
 
 [menu]

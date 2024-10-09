@@ -30,9 +30,12 @@ body.dark-theme {
 
 body.dark-theme main,
 body.dark-theme a,
-body.dark-theme nav,
-body.dark-theme .title {
+body.dark-theme nav {
     color: $dark-text-color;
+}
+
+body.dark-theme .title {
+    color: $dark-name-blur-color
 }
 
 body.dark-theme footer {
@@ -42,6 +45,10 @@ body.dark-theme footer {
 
 body.dark-theme footer ul li a i,
 body.dark-theme footer a {
+    color: $dark-text-color;
+}
+
+body.dark-theme .namehighlight {
     color: $dark-text-color;
 }
 

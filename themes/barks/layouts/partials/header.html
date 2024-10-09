@@ -14,5 +14,10 @@
             </div>
         </label>
     </div>
-    <a href="/" class="title">{{ .Site.Title | safeHTML }}</a>    
+    <a href="/" class="title">
+      {{ $title := .Site.Title | safeHTML }}
+      {{ $dashPattern := "-([^ -]+) ([^-]+)-" }}
+      {{ $highlighted := replaceRE $dashPattern "-<span class=\"namehighlight\">$1 $2</span>-" $title }}
+      {{ $highlighted | safeHTML }}
+    </a>
 </header>
