@@ -10,4 +10,10 @@
         <img src="{{ .Params.image }}" alt="{{ .Site.Params.header.title }}" width="221" height="331">
     </div>
 </div>
+
+{{ range $i, $e := where site.RegularPages "Type" "in" site.Params.mainSections }}
+    {{- if $i -}}<hr class="post-separator">{{ end -}}
+    {{ partial "post_li.html" $e }}
+{{end}}
+
 {{ end }}
