@@ -8,8 +8,7 @@ theme = 'barks'
         name = "Home"
         url = "/"
         weight = 1
-        [Params]
-            mainSections = ["posts"]
+        mainSections = ["posts"]
     [[menu.main]]
         name = "Publications"
         url = "/publications/"
