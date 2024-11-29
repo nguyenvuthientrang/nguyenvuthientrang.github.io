@@ -12,7 +12,3 @@ My research focuses on Trustworthy AI 💙, Efficient Scalable AI ⬆️⬆, and
 
 Please feel free to get in touch 📬
 
----
-title: "Example Post"
-type: "posts"
----
