@@ -21,6 +21,7 @@ theme = 'barks'
 [params]
     author = "Thien Trang Nguyen Vu"
     description = "AI Research Resident at VinAI Research."
+    mainSections = ["posts"]
 
     [params.social]
         [params.social.email]
