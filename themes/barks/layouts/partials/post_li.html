@@ -3,6 +3,6 @@
 
     {{ partial "post_title.html" . }}
 
-    {{- .Content | safeHTML | truncate 600 -}}
+    {{- .Content | safeHTML -}}
 
 </article>
