@@ -2,8 +2,6 @@
 title: "Home"
 layout: landing_page
 image: "/images/Photo_pink.jpg"
-selected_papers: true
-selected_preprints: true
 ---
 
 Hi, I'm Thiên Trang! 👋 You can call me Cheryl! 🍒
