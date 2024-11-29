@@ -74,8 +74,8 @@ body.dark-theme .namehighlight {
     box-sizing: border-box;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 600px) {
     .inner {
-        max-width: 600px;
+        max-width: 400px;
     }
 }
