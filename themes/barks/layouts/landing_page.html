@@ -12,7 +12,7 @@
 </div>
 
 {{ range $i, $e := where site.RegularPages "Type" "in" site.Params.mainSections }}
-    {{- if $i -}}<hr class="post-separator">{{ end -}}
+    <hr class="post-separator">
     {{ partial "post_li.html" $e }}
 {{end}}
 
