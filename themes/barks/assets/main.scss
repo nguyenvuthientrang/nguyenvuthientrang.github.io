@@ -11,13 +11,15 @@ main {
         color: $link-color;
         text-decoration: underline;
         text-decoration-style: dotted;
-        text-underline-offset: 3px;
+        text-underline-offset: 1px;
+	text-decoration-color: $link-color;
     }
 
     a:hover  {
         text-decoration-style: solid;
         text-decoration-color: $link-color;
 	color: $link-color;
+	text-underline-offset: 1px;
     }
 
 
