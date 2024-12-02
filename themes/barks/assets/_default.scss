@@ -13,7 +13,7 @@
 
 body {
     background-color: transparent;
-    background-image: linear-gradient(135deg, #FDD7F6, #C2E7FA);
+    background-image: repeating-linear-gradient(90deg, #FDD7F6, #C2E7FA);
     min-height: 100vh; /* Ensure body covers the full viewport */
     background-size: cover; /* Optional: Makes sure the gradient covers the entire area */
 	font-family: $body-font, sans-serif;
@@ -24,7 +24,7 @@ body {
 
 body.dark-theme {
     background-color: $dark-background-color;
-    background-image: linear-gradient(135deg, #FDD7F6, #C2E7FA);
+    background-image: repeating-linear-gradient(90deg, #FDD7F6, #C2E7FA);
     min-height: 0vh; /* Ensure body covers the full viewport */
     background-size: cover; /* Optional: Makes sure the gradient covers the entire area */
     color: $dark-text-color;
