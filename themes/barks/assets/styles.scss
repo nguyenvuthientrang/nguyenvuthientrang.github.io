@@ -10,7 +10,7 @@ $body-font: {{ .Site.Params.typography.body_font | default "Times New Roman, ser
 // $background-color: {{ .Site.Params.colors.background_color | default "#fcfbf9" }};
 $background-color: {{ .Site.Params.colors.background_color | default "#ffdddd" }};
 $text-color: {{ .Site.Params.colors.text_color | default "#333333" }};
-$link-color: {{ .Site.Params.colors.link_color | default "#60c17d" }};
+$link-color: {{ .Site.Params.colors.link_color | default "#7ec8f6" }};
 $name-blur-color: {{ .Site.Params.colors.name_blur_color | default "#b3b3b3" }};
 
 $dark-background-color: {{ .Site.Params.colors.dark_background_color | default "#3e3e3f" }};
