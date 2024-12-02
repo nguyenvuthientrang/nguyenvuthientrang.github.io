@@ -8,14 +8,14 @@ main {
     color: $text-color;
 
     a {
-        color: $text-color;
+        color: $link-color;
         text-decoration: underline;
         text-decoration-style: dotted;
         text-underline-offset: 3px;
     }
 
     a:hover  {
-        text-decoration-style: solid $link-color;
+        text-decoration-style: solid;
         text-decoration-color: $link-color;
 	color: $link-color;
     }
