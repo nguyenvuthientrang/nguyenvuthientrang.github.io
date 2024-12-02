@@ -3,11 +3,11 @@
 
     <article>
         {{ .Content }}
-    </article>
-
-    {{ range $i, $e := where site.RegularPages "Type" "in" site.Params.mainSections }}
+        {{ range $i, $e := where site.RegularPages "Type" "in" site.Params.mainSections }}
         {{- if $i -}}<hr class="post-separator">{{ end -}}
         {{ partial "post_li.html" $e }}
     {{end}}
+    </article>
+
 
 {{ end }}
