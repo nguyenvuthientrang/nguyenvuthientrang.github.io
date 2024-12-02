@@ -24,6 +24,9 @@ body {
 
 body.dark-theme {
     background-color: $dark-background-color;
+    background-image: linear-gradient(135deg, #FDD7F6, #C2E7FA);
+    min-height: 0vh; /* Ensure body covers the full viewport */
+    background-size: cover; /* Optional: Makes sure the gradient covers the entire area */
     color: $dark-text-color;
     font-family: $body-font, sans-serif;
     font-size: 20px;
