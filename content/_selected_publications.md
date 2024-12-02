@@ -1,4 +1,4 @@
----
+<!-- ---
 title: "Selected Publications"
 type: "posts"
 ---
@@ -13,4 +13,4 @@ type: "posts"
 
 * Dang Nguyen, **Trang Nguyen**, Khai Nguyen, Dinh Phung, Hung Bui, and Nhat Ho. [On Cross-Layer Alignment for Model Fusion of Heterogeneous Neural Networks](https://arxiv.org/abs/2110.15538). Top 3% Paper, in *ICASSP*, 2023.
 
-
+ -->
