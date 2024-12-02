@@ -15,8 +15,9 @@ main {
     }
 
     a:hover  {
-        text-decoration-style: solid;
+        text-decoration-style: solid $link-color;
         text-decoration-color: $link-color;
+	color: $link-color;
     }
 
 
