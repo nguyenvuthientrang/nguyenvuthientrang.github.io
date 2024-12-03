@@ -4,8 +4,8 @@ SCSS variables. This is achieved by `resources.ExecuteAsTemplate` in the <head>;
 warnings by a linter that the following is not valid SCSS can be ignored.
 */
 
-$title-font: {{ .Site.Params.typography.title_font | default "Georgia, serif" }};
-$body-font: {{ .Site.Params.typography.body_font | default "Times New Roman, serif" }};
+$title-font: {{ .Site.Params.typography.title_font | default "Bree Serif" }};
+$body-font: {{ .Site.Params.typography.body_font | default "Source Sans Pro" }};
 
 // $background-color: {{ .Site.Params.colors.background_color | default "#fcfbf9" }};
 $background-color: {{ .Site.Params.colors.background_color | default "#ffdddd" }};

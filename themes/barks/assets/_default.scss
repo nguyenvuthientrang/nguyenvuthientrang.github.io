@@ -12,14 +12,16 @@
 }
 
 body {
-    // background-color: transparent;
-    // background-image: repeating-linear-gradient(90deg, #FDD7F6, #C2E7FA);
+    background-color: transparent;
+    background-image: repeating-linear-gradient(90deg, #FDD7F6, #C2E7FA);
     background-color: $background-color;
     min-height: 100vh; /* Ensure body covers the full viewport */
     background-size: cover; /* Optional: Makes sure the gradient covers the entire area */
 	font-family: $body-font, sans-serif;
-	font-size: 20px;
-	line-height: 160%;
+	// font-size: 20px;
+	// line-height: 160%;
+	font-size: 16px;
+	line-height: 120%;
     font-display: swap;
 }
 
@@ -30,8 +32,10 @@ body.dark-theme {
     background-size: cover; /* Optional: Makes sure the gradient covers the entire area */
     color: $dark-text-color;
     font-family: $body-font, sans-serif;
-    font-size: 20px;
-	line-height: 160%;
+    // font-size: 20px;
+	// line-height: 160%;
+    font-size: 16px;
+	line-height: 120%;
     font-display: swap;
 }
 
