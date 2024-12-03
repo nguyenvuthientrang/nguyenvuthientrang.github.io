@@ -9,8 +9,11 @@ nav {
 
 nav a {
     display: inline-block;
-    color: $link-color;
+    // color: $link-color;
     text-decoration: none;
+    color: transparent;
+    background-image: linear-gradient(to bottom, #ff9e9e, #7ec8f6, #ff9e9e);
+    background-clip: text;
 }
 
 nav a::after {
@@ -20,7 +23,7 @@ nav a::after {
     width: 0;
     height: 4px;
     background: $link-color;
-    transition: width 0.25s;
+    transition: width 0.17s;
 }
 
 nav a:hover::after,

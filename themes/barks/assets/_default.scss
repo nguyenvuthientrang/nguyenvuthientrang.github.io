@@ -12,8 +12,9 @@
 }
 
 body {
-    background-color: transparent;
-    background-image: repeating-linear-gradient(90deg, #FDD7F6, #C2E7FA);
+    // background-color: transparent;
+    // background-image: repeating-linear-gradient(90deg, #FDD7F6, #C2E7FA);
+    background-color: $background-color;
     min-height: 100vh; /* Ensure body covers the full viewport */
     background-size: cover; /* Optional: Makes sure the gradient covers the entire area */
 	font-family: $body-font, sans-serif;
@@ -35,9 +36,18 @@ body.dark-theme {
 }
 
 body.dark-theme main,
-body.dark-theme a,
 body.dark-theme nav {
     color: $dark-text-color;
+}
+
+body.dark-theme a {
+    color: #60c17d;
+}
+
+body.dark-theme nav a {
+    color: transparent;
+    background-image: linear-gradient(#ffc48c, #ffffff);
+    background-clip: text;
 }
 
 body.dark-theme .title {
@@ -55,7 +65,10 @@ body.dark-theme footer a {
 }
 
 body.dark-theme .namehighlight {
-    color: $dark-text-color;
+    // color: $dark-text-color;
+    color: transparent;
+    background-image: linear-gradient(#ffd1d2, #ffc48c, #ffffff);
+    background-clip: text;
 }
 
 .outer {
