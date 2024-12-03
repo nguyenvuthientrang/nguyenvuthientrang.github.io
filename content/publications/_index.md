@@ -1,9 +1,11 @@
 ---
-title: "Publications"
+title: "Publications / Preprints"
 # menu: main
 ---
 
-* **Trang Nguyen**, Anh Tran, and Nhat Ho. [Backdoor Attack in Prompt-based Continual Learning](https://arxiv.org/abs/2406.19753). Under review.
+*: equal contribution
+
+<!-- * **Trang Nguyen**, Anh Tran, and Nhat Ho. [Backdoor Attack in Prompt-based Continual Learning](https://arxiv.org/abs/2406.19753). Under review.
 
 * Huy Nguyen, Pedram Akbarian\*, Trang Pham\*, **Trang Nguyen**\*, Shujian Zhang, and Nhat Ho. [Statistical Advantages of Perturbing Cosine Router in Sparse Mixture of Experts](https://arxiv.org/abs/2405.14131). Under review.
 
@@ -17,6 +19,6 @@ title: "Publications"
 
 * **Trang Nguyen**\*, Nam Le Hai\*, Linh Ngo Van, Thien Huu Nguyen, and Khoat Than. [Continual Variational Dropout: A View of Auxiliary Local Variables in Continual Learning](https://link.springer.com/article/10.1007/s10994-023-06487-7). In *Machine Learning Journal*.
 
-* Dang Nguyen, **Trang Nguyen**, Khai Nguyen, Dinh Phung, Hung Bui, and Nhat Ho. [On Cross-Layer Alignment for Model Fusion of Heterogeneous Neural Networks](https://arxiv.org/abs/2110.15538). Top 3% Paper, in *ICASSP*, 2023.
+* Dang Nguyen, **Trang Nguyen**, Khai Nguyen, Dinh Phung, Hung Bui, and Nhat Ho. [On Cross-Layer Alignment for Model Fusion of Heterogeneous Neural Networks](https://arxiv.org/abs/2110.15538). Top 3% Paper, in *ICASSP*, 2023. -->
 
 
