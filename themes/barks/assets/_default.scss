@@ -45,12 +45,15 @@ body.dark-theme nav {
 }
 
 body.dark-theme a {
-    color: #60c17d;
+    // color: #60c17d;
+    color: transparent;
+    background-image: linear-gradient(180deg, #FDD7F6, #C2E7FA);
+    background-clip: text;
 }
 
 body.dark-theme nav a {
     color: transparent;
-    background-image: linear-gradient(#ffc48c, #ffffff);
+    background-image: linear-gradient(180deg, #FDD7F6, #C2E7FA);
     background-clip: text;
 }
 
@@ -71,7 +74,7 @@ body.dark-theme footer a {
 body.dark-theme .namehighlight {
     // color: $dark-text-color;
     color: transparent;
-    background-image: linear-gradient(#ffd1d2, #ffc48c, #ffffff);
+    background-image: linear-gradient(180deg, #FDD7F6, #C2E7FA);
     background-clip: text;
 }
 

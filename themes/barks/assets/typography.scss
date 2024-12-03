@@ -99,7 +99,10 @@ Block quotes
 */
 
 blockquote {
-    border-left: 4px solid $link-color;
+    // border-left: 4px solid $link-color;
+    border-left: 4px solid transparent; /* Set transparent for border color */
+    border-image: linear-gradient(180deg, #FDD7F6, #C2E7FA); /* Gradient colors */
+    border-image-slice: 1; /* Ensures the gradient is applied */
     font-style: italic;
     padding: 0.5em 2em;
 }
