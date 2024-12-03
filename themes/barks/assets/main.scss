@@ -8,7 +8,7 @@ main {
     color: $text-color;
 
     a {
-        color: #60c17d;
+        color: $link-color;
         text-decoration: underline;
         text-decoration-style: dotted;
         text-underline-offset: 1px;

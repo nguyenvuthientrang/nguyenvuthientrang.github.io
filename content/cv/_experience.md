@@ -30,5 +30,5 @@ Research Student
 **Hanoi University of Science and Technology**  
 Teaching Assistant  
 *01/2022 – 06/2022*
-- · Teaching assistant for Artificial Intelligence course
+- Teaching assistant for Artificial Intelligence course
 

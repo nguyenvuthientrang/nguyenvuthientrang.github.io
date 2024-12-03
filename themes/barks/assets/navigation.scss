@@ -9,11 +9,11 @@ nav {
 
 nav a {
     display: inline-block;
-    // color: $link-color;
+    color: $link-color;
     text-decoration: none;
-    color: transparent;
-    background-image: linear-gradient(to bottom, #ff9e9e, #7ec8f6, #ff9e9e);
-    background-clip: text;
+    // color: transparent;
+    // background-image: linear-gradient(to bottom, #ff9e9e, #7ec8f6, #ff9e9e);
+    // background-clip: text;
 }
 
 nav a::after {
