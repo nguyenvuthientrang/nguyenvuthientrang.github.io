@@ -6,7 +6,7 @@ layout: post
 **VinAI**  
 Research Resident  
 *08/2023 – Present*
-- Supervisor: [Dr. Nhat Ho](https://nhatptnk8912.github.io/)
+- Supervisor: [Prof. Nhat Ho](https://nhatptnk8912.github.io/)
 - Main research topics: mixture of experts, backdoor attack, continual learning, optimal transport
 - 4 accepted publications at NeurIPS, EMNLP, ICASSP, 3 submissions
 - Participated in Applied Rotation Projects, including reproducing text-to-image diffusion models with
