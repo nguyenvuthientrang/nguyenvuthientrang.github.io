@@ -8,7 +8,7 @@ Research Resident
 *08/2023 – Present*
 - Supervisor: [Prof. Nhat Ho](https://nhatptnk8912.github.io/)
 - Main research topics: mixture of experts, backdoor attack, continual learning, optimal transport
-- 4 accepted publications at NeurIPS, EMNLP, ICASSP, 3 submissions
+- 6 accepted publications at NeurIPS, EMNLP, ICASSP, 1 submission currently under review
 - Participated in Applied Rotation Projects, including reproducing text-to-image diffusion models with
 customized data and quantizing these models
 
@@ -24,7 +24,7 @@ Research Student
 *04/2021 – 10/2022*
 - Supervisor: [Dr. Ngo Van Linh](https://users.soict.hust.edu.vn/linhnv/)
 - Main research topics: continual learning
-- 1 accepted paper at Machine Learning journal
+- 1 accepted publication at Machine Learning journal
 
 
 **Hanoi University of Science and Technology**  
