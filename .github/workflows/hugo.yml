@@ -41,10 +41,15 @@ jobs:
           hugo \
             --minify \
             --baseURL "${{ steps.pages.outputs.base_url }}/"
+      - name: Check for symlinks
+        run: find public/ -type l -print
+      - name: Remove symlinks
+        run: find public/ -type l -exec rm -rf {} +
+      - name: Remove hidden files
+        run: find public/ -name '.*' -exec rm -rf {} +
       - name: Upload artifact
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-pages-artifact@v2.0.0-beta.1
         with:
-          name: github-pages
           path: ./public
 
   deploy:
@@ -56,4 +61,4 @@ jobs:
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v3
+        uses: actions/deploy-pages@v4
