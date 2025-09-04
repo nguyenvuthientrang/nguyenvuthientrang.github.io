@@ -3,9 +3,17 @@ title: "Experience"
 layout: post
 ---
 
-**VinAI**  
+**Carnegie Mellon University**  
+PhD Student in Computer Science  
+*08/2025 – Present*
+- Advisor: [Tim Dettmers](https://timdettmers.com/about/)
+
+**Qualcomm**  
+*04/2025 – 07/2025*
+
+**VinAI Research**  
 Research Resident  
-*08/2023 – Present*
+*08/2023 – 03/2025*
 - Supervisor: [Prof. Nhat Ho](https://nhatptnk8912.github.io/)
 - Main research topics: mixture of experts, backdoor attack, continual learning, optimal transport
 - 6 accepted publications at NeurIPS, EMNLP, ICASSP, 1 submission currently under review
