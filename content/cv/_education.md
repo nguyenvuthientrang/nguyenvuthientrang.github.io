@@ -3,6 +3,11 @@ title: "Education"
 layout: post
 ---
 
+**Carnegie Mellon University**  
+Ph.D. in Computer Science  
+*08/2025 – Present*
+* **Advisor**: [Tim Dettmers](https://timdettmers.com/about/)
+
 **Hanoi University of Science and Technology (HUST)**  
 B.S. in Data Science and Artificial Intelligence  
 *08/2019 – 09/2023*
