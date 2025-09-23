@@ -25,7 +25,7 @@ the MB app
 **Data Science Laboratory, Hanoi University of Science and Technology**  
 Research Student  
 *04/2021 – 10/2022*
-- Supervisor: [Dr. Ngo Van Linh](https://users.soict.hust.edu.vn/linhnv/)
+- Supervisor: [Ngo Van Linh](https://users.soict.hust.edu.vn/linhnv/)
 - Main research topics: continual learning
 - 1 accepted publication at Machine Learning journal
 
