@@ -6,7 +6,7 @@ image: "/images/pfp_vinai.jpg"
 
 Hi, I'm Thiên Trang 👋 You can call me Trang 🍒
 
-I'm currently a PhD student in Computer Science at [**Carnegie Mellon University**](https://www.cs.cmu.edu), where I'm fortunate to be advised by [**Tim Dettmers**](https://timdettmers.com/about/). Previously, I worked at [**Qualcomm**](https://www.qualcomm.com) and was a Research Resident at [**VinAI Research**](https://vinai.io) under the guidance of [**Nhat Ho**](https://nhatptnk8912.github.io).
+I'm currently a PhD student in Computer Science at [**Carnegie Mellon University**](https://www.cs.cmu.edu), where I'm fortunate to be advised by [**Tim Dettmers**](https://timdettmers.com/about/). Previously, I worked at [**Qualcomm**](https://www.qualcomm.com) and was a Research Resident at [**VinAI Research**](https://vinai.io).
 
 My research focuses on advancing Artificial Intelligence and Machine Learning with two main goals: making them **Scalable & Efficient** ⬆, and ensuring they are **Safe, Private & Trustworthy** 🔐
 
