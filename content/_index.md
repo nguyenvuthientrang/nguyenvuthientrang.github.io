@@ -1,7 +1,7 @@
 ---
 title: "Home"
 layout: landing_page
-image: "/images/pfp_vinai.jpg"
+image: "/images/trangandkarina.jpg"
 ---
 
 Hi, I'm Thiên Trang 👋 You can call me Trang 🩵
