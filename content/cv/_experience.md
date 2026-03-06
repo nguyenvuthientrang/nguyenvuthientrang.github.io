@@ -3,35 +3,29 @@ title: "Experience"
 layout: post
 ---
 
-**Qualcomm**  
-*04/2025 – 07/2025*
-
-**VinAI Research**  
+**Qualcomm AI (formerly VinAI Research)**  
 Research Resident  
-*08/2023 – 03/2025*
+*08/2023 – 07/2025*
 - Supervisor: [Nhat Ho](https://nhatptnk8912.github.io/)
 - Main research topics: mixture of experts, backdoor attack, continual learning, optimal transport
-- 6 accepted publications at NeurIPS, EMNLP, ICASSP, 1 submission currently under review
-- Participated in Applied Rotation Projects, including reproducing text-to-image diffusion models with
-customized data and quantizing these models
+- Participated in applied projects, including reproducing text-to-image diffusion models on customized datasets and quantizing them for edge device deployment
 
 **MB Bank**  
 Data Scientist  
 *03/2023 – 08/2023*
-- Worked on facial recognition project serving the employee attendance system at MB’s headquarters
-- Participated in the project to analyze and build a recommendation system for mini-applications within
-the MB app
+- Developed a facial recognition system for the employee attendance system at MB's headquarters
+- Analyzed user data and contributed to building a recommendation system for mini-applications within the MB mobile banking app
 
 **Data Science Laboratory, Hanoi University of Science and Technology**  
 Research Student  
 *04/2021 – 10/2022*
 - Supervisor: [Ngo Van Linh](https://users.soict.hust.edu.vn/linhnv/)
 - Main research topics: continual learning
-- 1 accepted publication at Machine Learning journal
+- Developed continual learning methods based on regularization and prompt-based approaches
 
 
 **Hanoi University of Science and Technology**  
 Teaching Assistant  
 *01/2022 – 06/2022*
-- Teaching assistant for Artificial Intelligence course
+- Conducted recitations, graded assignments, and mentored students on projects for the Artificial Intelligence course
 
