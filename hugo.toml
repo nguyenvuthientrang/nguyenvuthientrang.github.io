@@ -3,6 +3,9 @@ languageCode = 'en-us'
 title = 'Thien-Trang Nguyen-Vu'
 theme = 'barks'
 
+[markup.goldmark.renderer]
+    unsafe = true
+
 [menu]
     [[menu.main]]
         name = "Home"
@@ -16,6 +19,10 @@ theme = 'barks'
         name = "Background"
         url = "/cv/"
         weight = 3
+    [[menu.main]]
+        name = "Art"
+        url = "/art/"
+        weight = 4
 
 [params]
     author = "Thien Trang Nguyen Vu"
