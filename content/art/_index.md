@@ -5,11 +5,11 @@ title: "Art"
 <p style="text-align: center;">A few drawings of mine.</p>
 
 <div class="art-gallery">
+  <a href="/images/art/drawing-5.jpeg"><img src="/images/art/drawing-5.jpeg" alt="Drawing 5" loading="lazy"></a>
   <a href="/images/art/drawing-1.jpeg"><img src="/images/art/drawing-1.jpeg" alt="Drawing 1" loading="lazy"></a>
   <a href="/images/art/drawing-3.jpeg"><img src="/images/art/drawing-3.jpeg" alt="Drawing 2" loading="lazy"></a>
   <a href="/images/art/drawing-4.jpeg"><img src="/images/art/drawing-4.jpeg" alt="Drawing 3" loading="lazy"></a>
   <a href="/images/art/drawing-2.jpeg"><img src="/images/art/drawing-2.jpeg" alt="Drawing 4" loading="lazy"></a>
-  <a href="/images/art/drawing-5.jpeg"><img src="/images/art/drawing-5.jpeg" alt="Drawing 5" loading="lazy"></a>
 </div>
 
 <style>
