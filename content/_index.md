@@ -4,7 +4,7 @@ layout: landing_page
 image: "/images/trangandkarina.jpg"
 ---
 
-Hi, I'm Thiên Trang 👋 You can call me Trang 🩵
+Hi, I'm Thiên Trang 🤙 You can call me Trang 🩵
 
 I'm currently a PhD student in Computer Science at [**Carnegie Mellon University**](https://www.cs.cmu.edu), where I'm fortunate to be advised by [**Tim Dettmers**](https://timdettmers.com/about/). Previously, I worked at [**Qualcomm**](https://www.qualcomm.com) and was a Research Resident at [**VinAI Research**](https://vinai.io).
 

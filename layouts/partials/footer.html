@@ -1,0 +1,48 @@
+
+{{ if not (eq .Site.Params.footer.show_footer false) }}
+<footer>
+
+    {{ if isset .Site.Params "social" }}
+    {{ with .Site.Params.social }}
+        <ul>
+        {{ range sort . "weight" }}
+            <li><a href="{{ .url }}" title="{{ .name }}"><i class="{{ .class }}"></i></a></li>
+        {{ end }}
+        </ul> 
+    {{ end }}
+    {{ end }}
+
+    {{ if .IsHome }}
+    <a class="cc-diary" href="/cliffcompaction/" title="My CliffCompaction diary" aria-label="My CliffCompaction diary">
+      <video autoplay muted loop playsinline preload="auto" poster="/images/cliffcompaction/cliff-loop.jpg" width="560" height="360" aria-hidden="true">
+        <source src="/images/cliffcompaction/cliff-loop.mp4" type="video/mp4">
+        <source src="/images/cliffcompaction/cliff-loop.webm" type="video/webm">
+      </video>
+    </a>
+    <style>
+    /* Hangs below the footer, out of the page flow, so the centered content doesn't move. */
+    footer { position: relative; }
+    .cc-diary { position: absolute; left: 50%; top: 100%; width: 72px; margin: 12px 0 0 -36px; line-height: 0; }
+    .cc-diary video { width: 100%; height: auto; mix-blend-mode: multiply; transition: transform 200ms; }
+    .cc-diary:hover video { transform: scale(1.15); }
+    body.dark-theme .cc-diary video { filter: invert(1); mix-blend-mode: screen; }
+    </style>
+    <script>
+    (function () {
+      var v = document.querySelector('.cc-diary video');
+      if (!v) return;
+      function restart() { v.currentTime = 0; var p = v.play(); if (p) p.catch(function () {}); }
+      v.addEventListener('ended', restart);
+      // Some browsers stall on the last frame instead of looping, so watch for that too.
+      setInterval(function () {
+        if (v.duration && (v.ended || v.paused || v.currentTime >= v.duration - 0.05)) restart();
+      }, 500);
+      restart();
+    })();
+    </script>
+    {{ end }}
+
+    {{ .Site.Copyright | safeHTML }}
+
+</footer>
+{{ end }}
