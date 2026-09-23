@@ -14,7 +14,7 @@
 
     {{ if .IsHome }}
     <a class="cc-diary" href="/cliffcompaction/" title="My CliffCompaction diary" aria-label="My CliffCompaction diary">
-      <video autoplay muted loop playsinline preload="auto" poster="/images/cliffcompaction/cliff-loop.jpg" width="560" height="360" aria-hidden="true">
+      <video autoplay muted loop playsinline preload="auto" poster="/images/cliffcompaction/cliff-loop.jpg" width="504" height="296" aria-hidden="true">
         <source src="/images/cliffcompaction/cliff-loop.mp4" type="video/mp4">
         <source src="/images/cliffcompaction/cliff-loop.webm" type="video/webm">
       </video>
@@ -22,7 +22,7 @@
     <style>
     /* Hangs below the footer, out of the page flow, so the centered content doesn't move. */
     footer { position: relative; }
-    .cc-diary { position: absolute; left: 50%; top: 100%; width: 72px; margin: 12px 0 0 -36px; line-height: 0; }
+    .cc-diary { position: absolute; left: 50%; top: 100%; width: 65px; margin: 20px 0 0 -32px; line-height: 0; }
     .cc-diary video { width: 100%; height: auto; mix-blend-mode: multiply; transition: transform 200ms; }
     .cc-diary:hover video { transform: scale(1.15); }
     body.dark-theme .cc-diary video { filter: invert(1); mix-blend-mode: screen; }
