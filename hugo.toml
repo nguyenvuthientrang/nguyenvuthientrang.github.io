@@ -45,3 +45,8 @@ theme = 'barks'
             class = "ai ai-google-scholar-square"
             url = "https://scholar.google.com/citations?user=TrSX1n8AAAAJ"
             weight = 3
+        [params.social.x]
+            name = "X"
+            class = "fab fa-x-twitter"
+            url = "https://x.com/thientrangngv"
+            weight = 4
