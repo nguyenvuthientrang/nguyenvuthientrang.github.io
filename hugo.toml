@@ -12,7 +12,7 @@ theme = 'barks'
         url = "/"
         weight = 1
     [[menu.main]]
-        name = "Publications"
+        name = "Research"
         url = "/publications/"
         weight = 2
     [[menu.main]]
