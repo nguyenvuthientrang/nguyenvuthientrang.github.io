@@ -1,5 +1,6 @@
 ---
 title: "Research"
+aliases: ["/publications/"]
 # menu: main
 ---
 
